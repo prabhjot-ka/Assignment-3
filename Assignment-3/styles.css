@@ -1,0 +1,260 @@
+body {
+    font-family: 'Your Custom Font', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    background: gold;
+    color: #fff;
+    height: 100px;
+    background-color: red; 
+    background-image: repeating-linear-gradient(190deg,red,yellow 7%,green 10%);     
+}
+
+h2{
+    color: black;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    color: black;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    background-color: #555;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    text-shadow: 2px 2px red;
+    
+}
+
+.header-nav ul {
+    list-style: none;
+    margin-left: 600px;
+    padding: 0;
+    display: flex; 
+    justify-content: flex-start; 
+}
+
+.header-nav li {
+    margin-right: 20px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.header-nav a:hover {
+    color: #3498db;
+}
+
+
+.logo {
+    margin-right: auto;
+    margin-left: -115%;
+}
+
+.logo img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.candy-images .candy-text {
+    flex-grow: 1;
+    position: relative; 
+}
+
+.candy-images .candy-text p {
+    font-style: italic;
+    color: white;
+    text-align: justify;
+    margin: 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 30px;
+    opacity: 0; 
+    transform: translateX(20px); 
+    animation: slideIn 1s forwards; 
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+ footer h3 {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.candy-info {
+    margin-bottom: 20px;
+}
+
+.candy-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.candy-images img:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    background-color: #555; 
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    transition: background-color 0.5s ease; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    max-width: 50%;
+    height: auto;
+    transition: transform 0.5s ease; 
+    padding-top: 30%;
+}
+
+.footer-logo:hover img {
+    transform: rotate(360deg);
+}
+
+.company-info, .contact-form {
+    color: blue;
+    flex-basis: calc(33.33% - 20px);
+    margin-top: 20px;
+}
+
+
+.company-info, .contact-form, .social-links {
+    flex-basis: calc(33.33% - 20px);
+    margin-top: 20px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+.contact-form form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact-form label {
+    display: block;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: blue;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.info-content {
+    flex-basis: calc(50% - 20px);
+}
+
+.candy-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: calc(50% - 20px);
+}
+
+.candy-images img {
+    max-width: 48%; 
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.background-box {
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+        border-radius: 15px 50px;
+        background: #73AD21;
+      
+}
+
+.background-box p {
+    font-style: italic;
+    color: #333; 
+    text-align: justify;
+    margin: 0;
+}
+
+
